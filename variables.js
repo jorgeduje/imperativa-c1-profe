@@ -83,7 +83,28 @@ let n2 = 12
 console.log(n1 === n2) //---> ESTRICTA
 console.log( n1 !== n2 ) //---> ESTRICTA
 
-
+console.log("-------------")
+console.log("-------------")
+console.log("-------------")
 // ANCHOR ---> Logicos
 
+// AND ---> &&
+// ANCHOR ---> basta con que una condicion evalue como false para que todo sea false
+
+let estaLogueado = false
+let esAdmin = true 
+
+let tienePermiso = estaLogueado === true && esAdmin === true
+
+console.log(tienePermiso)
+
+// OR --->  || 
+// ANCHOR ---> basta con que una condicion evalue como true para que todo sea true
+let tienePermiso2 = estaLogueado === true || esAdmin === true 
+console.log(tienePermiso2)
+
+// not ---> !
+console.log("---")
+let xx = true 
+console.log( !xx ) 
 
