@@ -13,7 +13,7 @@ let numeros = [ 12, 33, 55 ]
 // PARES ---> clave : valor
 
 let celular = {
-    nombre: "samsung",
+    nombre: "samsun",
     stock: 5,
     precio: 33,
     direccion: {
