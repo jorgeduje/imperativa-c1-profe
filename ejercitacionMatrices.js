@@ -107,3 +107,8 @@ let gastos5 = [
     [1700, 1150, 1690, 12500, 1770, 4500, 2560], // semana 3
     [800, 1250, 1430, 2100, 1980, 1270, 950], // semana 4
   ];
+
+
+  // 1 ---> es algo relaciona previo al parcial
+  // 2 ---> bubble sort 
+  // 3 ---> matrices ---> a y b
