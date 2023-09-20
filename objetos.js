@@ -270,31 +270,3 @@ const calcularTotal = (arreglo) => {
 
 let totalVendido = calcularTotal(items);
 console.log(totalVendido);
-
-const filtrarPorCategoria = (arreglo, categoria) => {
-  let arregloFiltrado = [];
-
-  for (let i = 0; i < arreglo.length; i++) {
-    if (arreglo[i].categoria === categoria) {
-      arregloFiltrado.push(arreglo[i]);
-    }
-  }
-
-  return arregloFiltrado;
-};
-
-
-
-const aumentarPrecio = (arreglo, categoria, porcentaje) => {
-  for (let i = 0; i < arreglo.length; i++) {
-    if (arreglo[i].categoria === categoria) {
-      arreglo[i].precio *= porcentaje;
-    }
-  }
-};
-
-aumentarPrecio(items, "computacion", 1.5)
-
-
-let itemsDeComputacion = filtrarPorCategoria(items, "computacion");
-console.log(itemsDeComputacion);
